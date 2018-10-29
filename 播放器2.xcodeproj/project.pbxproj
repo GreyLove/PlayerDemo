@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67BFDDDC218160F000FAF2DB /* icon_fs_video_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BFDDDB218160F000FAF2DB /* icon_fs_video_close@2x.png */; };
+		67BFDDDE2181610500FAF2DB /* icon_fs_video_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BFDDDD2181610400FAF2DB /* icon_fs_video_play@2x.png */; };
+		67BFDDE02181611300FAF2DB /* icon_fs_video_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BFDDDF2181611300FAF2DB /* icon_fs_video_pause@2x.png */; };
+		67BFDDE22181651400FAF2DB /* icon_fs_video_dian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BFDDE12181651400FAF2DB /* icon_fs_video_dian@2x.png */; };
 		67E9222321807AD000DDAD79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E9222221807AD000DDAD79 /* AppDelegate.m */; };
 		67E9222621807AD000DDAD79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E9222521807AD000DDAD79 /* ViewController.m */; };
 		67E9222921807AD000DDAD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E9222721807AD000DDAD79 /* Main.storyboard */; };
 		67E9222B21807AD200DDAD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E9222A21807AD200DDAD79 /* Assets.xcassets */; };
 		67E9222E21807AD200DDAD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E9222C21807AD200DDAD79 /* LaunchScreen.storyboard */; };
 		67E9223121807AD200DDAD79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E9223021807AD200DDAD79 /* main.m */; };
+		67E9223921807ADF00DDAD79 /* WJMoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E9223721807ADF00DDAD79 /* WJMoviePlayerView.m */; };
+		67E9223C2180807700DDAD79 /* UIView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E9223B2180807700DDAD79 /* UIView+SimAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67BFDDDB218160F000FAF2DB /* icon_fs_video_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fs_video_close@2x.png"; sourceTree = "<group>"; };
+		67BFDDDD2181610400FAF2DB /* icon_fs_video_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fs_video_play@2x.png"; sourceTree = "<group>"; };
+		67BFDDDF2181611300FAF2DB /* icon_fs_video_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fs_video_pause@2x.png"; sourceTree = "<group>"; };
+		67BFDDE12181651400FAF2DB /* icon_fs_video_dian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fs_video_dian@2x.png"; sourceTree = "<group>"; };
 		67E9221E21807AD000DDAD79 /* 播放器2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "播放器2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E9222121807AD000DDAD79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67E9222221807AD000DDAD79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,10 @@
 		67E9222D21807AD200DDAD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E9222F21807AD200DDAD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67E9223021807AD200DDAD79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67E9223721807ADF00DDAD79 /* WJMoviePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJMoviePlayerView.m; sourceTree = "<group>"; };
+		67E9223821807ADF00DDAD79 /* WJMoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJMoviePlayerView.h; sourceTree = "<group>"; };
+		67E9223A2180807700DDAD79 /* UIView+SimAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SimAdditions.h"; sourceTree = "<group>"; };
+		67E9223B2180807700DDAD79 /* UIView+SimAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SimAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,14 @@
 				67E9222221807AD000DDAD79 /* AppDelegate.m */,
 				67E9222421807AD000DDAD79 /* ViewController.h */,
 				67E9222521807AD000DDAD79 /* ViewController.m */,
+				67E9223821807ADF00DDAD79 /* WJMoviePlayerView.h */,
+				67E9223721807ADF00DDAD79 /* WJMoviePlayerView.m */,
+				67E9223A2180807700DDAD79 /* UIView+SimAdditions.h */,
+				67E9223B2180807700DDAD79 /* UIView+SimAdditions.m */,
+				67BFDDDB218160F000FAF2DB /* icon_fs_video_close@2x.png */,
+				67BFDDDD2181610400FAF2DB /* icon_fs_video_play@2x.png */,
+				67BFDDDF2181611300FAF2DB /* icon_fs_video_pause@2x.png */,
+				67BFDDE12181651400FAF2DB /* icon_fs_video_dian@2x.png */,
 				67E9222721807AD000DDAD79 /* Main.storyboard */,
 				67E9222A21807AD200DDAD79 /* Assets.xcassets */,
 				67E9222C21807AD200DDAD79 /* LaunchScreen.storyboard */,
@@ -128,9 +150,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BFDDDE2181610500FAF2DB /* icon_fs_video_play@2x.png in Resources */,
+				67BFDDE02181611300FAF2DB /* icon_fs_video_pause@2x.png in Resources */,
 				67E9222E21807AD200DDAD79 /* LaunchScreen.storyboard in Resources */,
+				67BFDDDC218160F000FAF2DB /* icon_fs_video_close@2x.png in Resources */,
 				67E9222B21807AD200DDAD79 /* Assets.xcassets in Resources */,
 				67E9222921807AD000DDAD79 /* Main.storyboard in Resources */,
+				67BFDDE22181651400FAF2DB /* icon_fs_video_dian@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E9223C2180807700DDAD79 /* UIView+SimAdditions.m in Sources */,
 				67E9222621807AD000DDAD79 /* ViewController.m in Sources */,
 				67E9223121807AD200DDAD79 /* main.m in Sources */,
 				67E9222321807AD000DDAD79 /* AppDelegate.m in Sources */,
+				67E9223921807ADF00DDAD79 /* WJMoviePlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
